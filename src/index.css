@@ -1,12 +1,14 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+
 a.active hr{
     display: block;
 }
 
 *{
-    font-family:"Outfit"; 
+    font-family: "Outfit", sans-serif;
 }
+
 .prata-regular {
   font-family: "Prata", serif;
   font-weight: 400;
@@ -18,7 +20,7 @@ a.active hr{
 }
 
 button {
-  cursor: default;
+  cursor: pointer;
 }
 
 @media (max-width:640px) {
